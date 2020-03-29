@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/alura_microservices?createDatabaseIfNotExist=true&serverTimezone=UTC
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        ddl-auto: update
+        format_sql: true
